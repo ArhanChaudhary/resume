@@ -32,8 +32,7 @@ jobs:
       - name: Copy paper to web root
         run: |
           mkdir www
-          ln resume.pdf www/resume.pdf
-          ln index.html www/index.html
+          ln resume.pdf www/pdf
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
