@@ -33,7 +33,6 @@
   location: "West Lafayette, IN",
   dates: dates-helper(start-date: "Aug 2023", end-date: "May 2027"),
   degree: "B.S. Computer Science, Minor in Electrical & Computer Engineering",
-  consistent: true
 )
 - Cumulative GPA: 3.55\/4.0 | Dean's List (x4)
 - Relevant Coursework: Compilers, Operating Systems, Data Structures and Algorithms, Computer Architecture, Linear Algebra, Electrical Engineering Fundamentals I & II, Digital System Design 
@@ -77,8 +76,8 @@
   // URL is also optional
   url: "qter.dev",
 )
-- Architected a computer system that turns the Rubik's Cube into a computer: humans can physically perform computations by following instructions on which moves to perform. Led a team of 4 members from the Purdue Hackers club.
-- Built a domain specific optimal twisty puzzle solver, utilizing MPMC channels, multi-threading, atomic operations, SIMD programming, pruning techniques, and novel computer algorithms. Wrote 15k lines of Rust over two years.
+- Architected a computer system that turns the Rubik's Cube into a computer: humans can physically perform computations by following instructions on which moves to perform. Led a team of 4 members to write 60k+ lines of code.
+- Built a domain specific optimal twisty puzzle solver. Utilizes multi-threading synchronization using channels and atomics, SIMD programming, pruning techniques, group theory, and novel computer algorithms. Wrote 20k lines of Rust.
 - Assembled a custom Rubik's Cube robot from scratch to execute Qter programs, featuring custom firmware and a web app that performs computer vision written in Rust. Used NEMA 17 motors and flexible couplers to achieve 20 turns/second.
 
 #project(
